@@ -9,13 +9,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Jun Development Blog`,
+    title: `준블로그`,
     author: {
       name: `Jun Park`,
       summary: `who lives and works in Seoul`,
     },
     description: `Blog about Jun's development`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://blog.junpark.xyz/`,
     social: {
       twitter: `kylemathews`,
     },
