@@ -18,5 +18,6 @@ export default function Comment({ repo }) {
     })
     containerRef.current.appendChild(utterances)
   }, [repo])
+
   return <div id="comment" ref={containerRef} />
 }

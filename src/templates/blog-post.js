@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Comment from "../components/comment"
+import KakaoAds from "../components/kakaoAds"
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -73,6 +74,7 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
+      <KakaoAds />
     </Layout>
   )
 }
